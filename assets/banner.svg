@@ -1,42 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
-  <title id="title">SENYOBRAHHH</title>
-  <desc id="description">Software, Robotics, Space — dark navy developer banner with an orbital engineering motif.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#080D17"/><stop offset="0.55" stop-color="#0B1626"/><stop offset="1" stop-color="#142B3D"/></linearGradient>
-    <radialGradient id="glow" cx="79%" cy="48%" r="52%"><stop offset="0" stop-color="#2B8193" stop-opacity="0.19"/><stop offset="0.65" stop-color="#1C4860" stop-opacity="0.08"/><stop offset="1" stop-color="#0A101A" stop-opacity="0"/></radialGradient>
-    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#6EA9B9" stop-opacity="0"/><stop offset="0.55" stop-color="#82C8D8" stop-opacity="0.62"/><stop offset="1" stop-color="#6EA9B9" stop-opacity="0.08"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0L0 0 0 40" stroke="#6D97A8" stroke-width=".65" fill="none" opacity=".14"/></pattern>
-    <clipPath id="crop"><rect width="1200" height="300" rx="10"/></clipPath>
-  </defs>
-  <g clip-path="url(#crop)">
-    <rect width="1200" height="300" fill="url(#bg)"/><rect width="1200" height="300" fill="url(#glow)"/><rect width="1200" height="300" fill="url(#grid)" opacity=".5"/>
-    <path d="M0 272 Q370 178 687 274 T1210 218" fill="none" stroke="url(#line)" stroke-width="1.2" opacity=".45"/>
-    <path d="M-65 301 Q410 207 735 301 T1250 257" fill="none" stroke="#6096AE" stroke-width=".8" opacity=".24"/>
-    <path d="M74 52 H714 M72 256 H625" stroke="#A8C2D1" stroke-opacity=".12"/>
-    <path d="M72 52 V63 M714 52 V63 M72 244 V256 M625 244 V256" stroke="#93A9B6" stroke-opacity=".35" stroke-width="1.2"/>
-    <g fill="none" transform="translate(991 149)">
-      <circle r="117" stroke="#74A4B5" stroke-opacity=".26"/>
-      <circle r="90" stroke="#80B8C8" stroke-opacity=".16" stroke-dasharray="4 9"/>
-      <ellipse rx="158" ry="61" transform="rotate(-26)" stroke="#75B5C5" stroke-opacity=".48" stroke-width="1.25"/>
-      <ellipse rx="159" ry="61" transform="rotate(49)" stroke="#789FB0" stroke-opacity=".19" stroke-width=".9"/>
-      <circle r="51" fill="#172C3D" fill-opacity=".64" stroke="#A8D6DC" stroke-opacity=".31"/>
-      <path d="M-42 29 Q3 1 33 -32 M-38 -21 Q-8 -3 42 12" stroke="#91C4C9" stroke-opacity=".23"/>
-      <circle r="4.4" cx="141" cy="-64" fill="#A4DDE3"/><circle r="9.5" cx="141" cy="-64" stroke="#A4DDE3" stroke-opacity=".55"/>
-      <path d="M141 -74 V-87 M141 -54 V-41 M131 -64 H118 M151 -64 H164" stroke="#A4DDE3" opacity=".5"/>
-      <g transform="translate(-82 -67) rotate(-24)" stroke="#BDDCE3" stroke-width="1.1" fill="none" opacity=".83">
-        <rect x="-12" y="-11" width="24" height="22" rx="2" fill="#1B3746"/><path d="M-12 0 H-22 M12 0 H22"/>
-        <rect x="-54" y="-12" width="32" height="24"/><rect x="22" y="-12" width="32" height="24"/>
-        <path d="M-43 -12 V12 M-32 -12 V12 M33 -12 V12 M44 -12 V12 M-54 0 H-22 M22 0 H54" stroke-opacity=".45"/>
-        <path d="M0 -11 V-20 M-6 -21 H6"/>
-      </g>
-      <path d="M-175 0 H-162 M162 0 H175 M0 -142 V-129 M0 129 V142" stroke="#9BC2CE" stroke-opacity=".3"/>
-    </g>
-    <g fill="#9FC9D4"><circle cx="740" cy="91" r="2" opacity=".52"/><circle cx="760" cy="237" r="1.7" opacity=".32"/><circle cx="1158" cy="49" r="2" opacity=".5"/><circle cx="832" cy="43" r="1.7" opacity=".4"/></g>
-    <text x="76" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" fill="#8EB1C2">PERSONAL SPACE / 001</text>
-    <text x="72" y="168" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="65" font-weight="750" letter-spacing=".5" fill="#F2F6FA">SENYOBRAHHH</text>
-    <rect x="76" y="187" width="43" height="3" rx="1.5" fill="#81C0D0"/>
-    <text x="133" y="195" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="1.2" fill="#B6CED7">Software <tspan fill="#5A95A5">·</tspan> Robotics <tspan fill="#5A95A5">·</tspan> Space</text>
-    <text x="76" y="234" font-family="Consolas, Menlo, monospace" font-size="13.5" fill="#819BAB" letter-spacing=".35">&gt; curiosity / building / exploration</text>
-    <path d="M0 0 H1200" stroke="#75C4D0" stroke-opacity=".32" stroke-width="2"/><path d="M0 299 H1200" stroke="#75C4D0" stroke-opacity=".14" stroke-width="2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="Senyobrahhh — Software, Robotics, Space, animated orbit banner">
+<defs>
+ <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#080e19"/><stop offset=".56" stop-color="#0d1a2a"/><stop offset="1" stop-color="#173347"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#357b94" stop-opacity=".26"/><stop offset="1" stop-color="#357b94" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#9abec8" stroke-opacity=".095" fill="none"/></pattern>
+</defs>
+<style>
+ .pulse{animation:pulse 3.4s ease-in-out infinite}.twinkle{animation:twinkle 4s ease-in-out infinite}
+ .title{animation:arrive 1.5s ease-out both}.sub{animation:arrive 1.9s ease-out both}
+ .scan{animation:scan 8s ease-in-out infinite}.cursor{animation:twinkle 1.1s steps(2,end) infinite}
+ @keyframes pulse{0%,100%{opacity:.3}50%{opacity:.75}}
+ @keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+ @keyframes arrive{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+ @keyframes scan{0%,100%{opacity:.2}50%{opacity:.5}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="310" fill="url(#bg)"/><rect width="1200" height="310" fill="url(#grid)"/>
+<ellipse cx="993" cy="153" rx="263" ry="222" fill="url(#orb)"/>
+<path d="M0 272Q285 218 511 258T1200 241" fill="none" stroke="#66a6ba" stroke-opacity=".23" stroke-width="1.3" class="scan"/>
+<g transform="translate(984 156)" fill="none">
+ <circle r="121" stroke="#83b9c9" stroke-opacity=".25"/><circle r="82" stroke="#83b9c9" stroke-opacity=".17" stroke-dasharray="4 8"/>
+ <ellipse rx="165" ry="67" transform="rotate(-26)" stroke="#8bcbd5" stroke-opacity=".48"/>
+ <ellipse rx="156" ry="58" transform="rotate(47)" stroke="#73a2b9" stroke-opacity=".23"/>
+ <circle r="48" stroke="#abdde1" stroke-opacity=".34" fill="#1e3949" fill-opacity=".25"/>
+ <path d="M-36 18Q0-13 32-32M-35-22Q1 1 37 16" stroke="#9cbdc8" stroke-opacity=".25"/>
+</g>
+<g>
+ <animateMotion dur="18s" repeatCount="indefinite" rotate="auto" path="M 836,202 C 840,260 1011,194 1110,124 S 1076,24 943,88 S 817,174 836,202"/>
+ <g stroke="#a7d5db" stroke-width="1.7" fill="#1b3445"><rect x="-10" y="-10" width="20" height="20" rx="2"/><rect x="-47" y="-11" width="28" height="22"/><rect x="19" y="-11" width="28" height="22"/><path d="M-19 0h9M10 0h9M-38-11v22M-28-11v22M28-11v22M38-11v22M0-10v-13"/></g>
+ </g>
+<g fill="#8ccbd9"><circle cx="765" cy="87" r="2" class="twinkle"/><circle cx="1135" cy="58" r="2.4" class="pulse"/><circle cx="870" cy="271" r="1.8" class="twinkle"/><circle cx="1181" cy="232" r="1.9" class="pulse"/></g>
+<path d="M70 56h540M70 264h540" stroke="#a9c1c9" stroke-opacity=".16"/>
+<g class="title">
+ <text x="72" y="95" font-family="Arial,sans-serif" font-weight="600" letter-spacing="3.8" fill="#90b3c2" font-size="15">PERSONAL SPACE  /  001</text>
+ <text x="70" y="177" font-family="Arial,sans-serif" font-weight="bold" fill="#f1f6f8" font-size="66" letter-spacing="1">SENYOBRAHHH</text>
+</g>
+<g class="sub">
+ <rect x="76" y="198" width="43" height="3" rx="1" fill="#84ceda"/>
+ <text x="135" y="207" font-family="Arial,sans-serif" font-size="21" fill="#c2d7df" letter-spacing="1.3">Software · Robotics · Space</text>
+ <text x="76" y="247" font-family="monospace" font-size="15" fill="#88a5b3">&gt; curiosity / building / exploration</text>
+ <rect class="cursor" x="412" y="235" width="9" height="15" fill="#80ccdd"/>
+</g>
+<path d="M0 1h1200M0 309h1200" stroke="#91d3da" stroke-opacity=".27"/>
 </svg>
