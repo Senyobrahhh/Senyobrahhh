@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="368" viewBox="0 0 960 368" role="img" aria-labelledby="title desc">
+<title id="title">What pulls me forward</title>
+<desc id="desc">Engineering interests: spacecraft, satellites, avionics, embedded systems, autonomous robots, robotic arms, medical and surgical technology, CAD, CNC, 3D printing, experiments and prototypes. Outside engineering: fitness, gaming, travel, cars and entrepreneurship.</desc>
+<defs>
+<linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1A2A"/><stop offset="1" stop-color="#080E19"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#32677B" stop-opacity=".26"/><stop offset="1" stop-color="#32677B" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".3" cy=".25" r=".8"><stop stop-color="#203C50"/><stop offset=".7" stop-color="#0D1A2A"/><stop offset="1" stop-color="#080E19"/></radialGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8CC8D8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="367" rx="16" fill="url(#surface)" stroke="#263E50" />
+
+<text x="40" y="42" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="1.6" text-anchor="start" >02 / CURIOSITY</text>
+<path d="M40 62H920" fill="none" stroke="#263E50" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="920" y="42" fill="#A4B7C7" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="0.8" text-anchor="end" >BEYOND THE TERMINAL</text>
+<g transform="translate(40 96)" fill="none" stroke="#8CC8D8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="20" cy="20" rx="22" ry="9" transform="rotate(-35 20 20)"/><circle cx="20" cy="20" r="12"/><path d="M20 8C8 15 8 25 20 32M20 8C32 15 32 25 20 32"/></g>
+<text x="40" y="170" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Space &amp; embedded</text>
+<text x="40" y="199" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >Spacecraft, satellites, avionics.</text>
+<text x="40" y="224" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >Microcontrollers &amp; electronics.</text>
+<path d="M322 96V255" fill="none" stroke="#263E50" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(341 96)" fill="none" stroke="#8CC8D8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 36H36M10 36V29L21 17L15 8M15 8L26 4L33 10M30 7L34 3M33 10L37 9"/><circle cx="21" cy="17" r="4"/><circle cx="10" cy="29" r="3"/><path d="M30 25V35M25 30H35"/></g>
+<text x="341" y="170" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Robotics &amp; medtech</text>
+<text x="341" y="199" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >Autonomous systems &amp; arms.</text>
+<text x="341" y="224" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >Medical &amp; surgical technology.</text>
+<path d="M623 96V255" fill="none" stroke="#263E50" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(642 96)" fill="none" stroke="#8CC8D8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 2L37 12V31L20 41L3 31V12ZM3 12L20 22L37 12M20 22V41M20 2V22"/><path d="M3 31L20 22L37 31" stroke-dasharray="2 4"/></g>
+<text x="642" y="170" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Design &amp; prototyping</text>
+<text x="642" y="199" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >CAD, CNC &amp; 3D printing.</text>
+<text x="642" y="224" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="16" font-weight="400" letter-spacing="0" text-anchor="start" >Mechanisms, ideas &amp; experiments.</text>
+<path d="M40 288H920" fill="none" stroke="#263E50" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="40" y="318" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="500" letter-spacing="1.6" text-anchor="start" >OFF THE CLOCK</text>
+<text x="214" y="318" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="18" font-weight="400" letter-spacing="0" text-anchor="start" >Fitness · Gaming · Travel · Cars · Entrepreneurship</text>
+<text x="214" y="345" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >A life beyond the screen. A curiosity that follows me everywhere.</text>
+</svg>

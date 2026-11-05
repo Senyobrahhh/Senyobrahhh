@@ -4,57 +4,164 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "26 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-metrics.yml"
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: profile-metrics-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
     env:
       METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
-      - name: Explain required setup
+      - name: Report missing setup
         if: ${{ env.METRICS_TOKEN == '' }}
-        run: echo "::notice::Create a GitHub personal access token with only needed permissions and save it in this repository's Actions secrets as METRICS_TOKEN. Then rerun this workflow."
-      - name: Generate isometric contribution calendar
+        run: |
+          echo "::notice::No metrics were generated. Add METRICS_TOKEN as a repository Actions secret, then rerun. See docs/PROFILE_METRICS_SETUP.md."
+          echo "Metrics skipped: METRICS_TOKEN is not configured. Existing images were kept." >> "$GITHUB_STEP_SUMMARY"
+      - name: Generate desktop telemetry
         if: ${{ env.METRICS_TOKEN != '' }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ github.token }}
-          user: Senyobrahhh
-          template: terminal
-          filename: assets/metrics/calendar.svg
-          base: ""
-          config_timezone: Europe/Sofia
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-      - name: Generate repository language breakdown
+          token: "${{ secrets.METRICS_TOKEN }}"
+          committer_token: "${{ github.token }}"
+          committer_branch: "${{ github.ref_name }}"
+          user: "Senyobrahhh"
+          template: "classic"
+          base: "metadata"
+          config_timezone: "Europe/Sofia"
+          config_order: "isocalendar, languages, habits"
+          config_animations: "no"
+          config_padding: "0, 12"
+          plugin_isocalendar: "yes"
+          plugin_isocalendar_duration: "full-year"
+          plugin_languages: "yes"
+          plugin_languages_limit: "6"
+          plugin_languages_details: "percentage"
+          plugin_languages_colors: "0:#8CC8D8, 1:#6F97B4, 2:#B5C5D1, 3:#527188, 4:#D6DDE5, 5:#385468"
+          plugin_languages_other: "yes"
+          plugin_habits: "yes"
+          plugin_habits_facts: "no"
+          plugin_habits_charts: "yes"
+          plugin_habits_charts_type: "classic"
+          plugin_habits_languages_limit: "0"
+          plugins_errors_fatal: "yes"
+          output_action: "commit"
+          output_condition: "data-changed"
+          committer_message: "Refresh GitHub telemetry [skip ci]"
+          filename: "assets/metrics/github.svg"
+          config_display: "large"
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #152D40;
+              --color-calendar-graph-day-border: #263E50;
+              --color-calendar-graph-day-L1-bg: #274555;
+              --color-calendar-graph-day-L2-bg: #446D80;
+              --color-calendar-graph-day-L3-bg: #6797A9;
+              --color-calendar-graph-day-L4-bg: #8CC8D8;
+            }
+            svg { color: #A4B7C7; font-family: "Segoe UI", Arial, sans-serif; }
+            .items-wrapper {
+              box-sizing: border-box;
+              padding: 20px 8px;
+              background: #0D1A2A;
+              border: 1px solid #263E50;
+              border-radius: 16px;
+            }
+            h1, h2, h3 { color: #8CC8D8; }
+            h2 { font-size: 18px; margin-top: 18px; }
+            h3 { font-size: 15px; }
+            .field { color: #D7E2EA; }
+            .field svg { fill: #8CC8D8; }
+            .field.error { color: #E6A5A5; }
+            .field.warning, .footnote.warning { color: #D6C49F; }
+            .field.language.details small, .chart-bars .entry,
+            .h-details, .footnote, footer { color: #A4B7C7; }
+            footer { padding: 12px 12px 0; font-size: 11px; }
+            path[fill="#ebedf0"], path[fill="#161b22"] { fill: #152D40; }
+            path[fill="#9be9a8"], path[fill="#0e4429"] { fill: #274555; }
+            path[fill="#40c463"], path[fill="#006d32"] { fill: #446D80; }
+            path[fill="#30a14e"], path[fill="#26a641"] { fill: #6797A9; }
+            path[fill="#216e39"], path[fill="#39d353"] { fill: #8CC8D8; }
+            @media (prefers-reduced-motion: reduce) {
+              * { animation: none !important; transition: none !important; }
+            }
+      - name: Generate mobile telemetry
         if: ${{ env.METRICS_TOKEN != '' }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # stable v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ github.token }}
-          user: Senyobrahhh
-          template: terminal
-          filename: assets/metrics/languages.svg
-          base: ""
-          config_timezone: Europe/Sofia
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_details: percentage
-      - name: Generate coding activity charts
-        if: ${{ env.METRICS_TOKEN != '' }}
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ github.token }}
-          user: Senyobrahhh
-          template: classic
-          filename: assets/metrics/activity.svg
-          base: ""
-          config_timezone: Europe/Sofia
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
+          token: "${{ secrets.METRICS_TOKEN }}"
+          committer_token: "${{ github.token }}"
+          committer_branch: "${{ github.ref_name }}"
+          user: "Senyobrahhh"
+          template: "classic"
+          base: "metadata"
+          config_timezone: "Europe/Sofia"
+          config_order: "isocalendar, languages, habits"
+          config_animations: "no"
+          config_padding: "0, 12"
+          plugin_isocalendar: "yes"
+          plugin_isocalendar_duration: "full-year"
+          plugin_languages: "yes"
+          plugin_languages_limit: "6"
+          plugin_languages_details: "percentage"
+          plugin_languages_colors: "0:#8CC8D8, 1:#6F97B4, 2:#B5C5D1, 3:#527188, 4:#D6DDE5, 5:#385468"
+          plugin_languages_other: "yes"
+          plugin_habits: "yes"
+          plugin_habits_facts: "no"
+          plugin_habits_charts: "yes"
+          plugin_habits_charts_type: "classic"
+          plugin_habits_languages_limit: "0"
+          plugins_errors_fatal: "yes"
+          output_action: "commit"
+          output_condition: "data-changed"
+          committer_message: "Refresh GitHub telemetry [skip ci]"
+          filename: "assets/metrics/github-mobile.svg"
+          config_display: "regular"
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #152D40;
+              --color-calendar-graph-day-border: #263E50;
+              --color-calendar-graph-day-L1-bg: #274555;
+              --color-calendar-graph-day-L2-bg: #446D80;
+              --color-calendar-graph-day-L3-bg: #6797A9;
+              --color-calendar-graph-day-L4-bg: #8CC8D8;
+            }
+            svg { color: #A4B7C7; font-family: "Segoe UI", Arial, sans-serif; }
+            .items-wrapper {
+              box-sizing: border-box;
+              padding: 20px 8px;
+              background: #0D1A2A;
+              border: 1px solid #263E50;
+              border-radius: 16px;
+            }
+            h1, h2, h3 { color: #8CC8D8; }
+            h2 { font-size: 18px; margin-top: 18px; }
+            h3 { font-size: 15px; }
+            .field { color: #D7E2EA; }
+            .field svg { fill: #8CC8D8; }
+            .field.error { color: #E6A5A5; }
+            .field.warning, .footnote.warning { color: #D6C49F; }
+            .field.language.details small, .chart-bars .entry,
+            .h-details, .footnote, footer { color: #A4B7C7; }
+            footer { padding: 12px 12px 0; font-size: 11px; }
+            path[fill="#ebedf0"], path[fill="#161b22"] { fill: #152D40; }
+            path[fill="#9be9a8"], path[fill="#0e4429"] { fill: #274555; }
+            path[fill="#40c463"], path[fill="#006d32"] { fill: #446D80; }
+            path[fill="#30a14e"], path[fill="#26a641"] { fill: #6797A9; }
+            path[fill="#216e39"], path[fill="#39d353"] { fill: #8CC8D8; }
+            @media (prefers-reduced-motion: reduce) {
+              * { animation: none !important; transition: none !important; }
+            }
+

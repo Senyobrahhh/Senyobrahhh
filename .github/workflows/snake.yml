@@ -8,15 +8,25 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/snake.yml"
+      - "scripts/prepare_snake.py"
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
+      - name: Check out presentation helper
+        uses: actions/checkout@v4
+
       - name: Create contribution snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,6 +35,11 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Create orbital palette and reduced-motion variant
+        run: |
+          python3 scripts/prepare_snake.py dist/github-snake-dark.svg dist/github-snake-orbital.svg
+          python3 scripts/prepare_snake.py dist/github-snake-dark.svg dist/github-snake-orbital-static.svg --static
+
       - name: Publish SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -32,3 +47,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
