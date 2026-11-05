@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="Profile banner" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:111827,100:0F172A&section=header&text=SENYOBRAHHH&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Software%20%E2%80%A2%20Robotics%20%E2%80%A2%20Space&descAlignY=60&descSize=16&animation=fadeIn" />
+<img width="100%" alt="Senyobrahhh — Software, Robotics, Space custom engineering banner" src="./assets/banner.svg" />
 
 **Developer · Curious builder · Exploring what comes next**
 
