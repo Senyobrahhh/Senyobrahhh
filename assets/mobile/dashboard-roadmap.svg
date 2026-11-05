@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="1086" viewBox="0 0 420 1086" role="img" aria-labelledby="title desc">
+<title id="title">Engineering flight plan — all eight stages are planned</title>
+<desc id="desc">A learning roadmap, not completed projects. 1. Sensors &amp; circuits: Arduino · electronics fundamentals; 2. Telemetry &amp; logging: ESP32 · wireless data · SD logging; 3. Embedded foundations: STM32 · IMUs · sensor fusion; 4. Motion &amp; control: Motors · feedback loops · PID; 5. Autonomous robotics: Rovers · robotic arms · integration; 6. Custom hardware: PCB design · RTOS architecture; 7. Modular avionics: Flight computers · CAN bus; 8. Integrated testbeds: Spacecraft simulators · robotics. First planned build: an Arduino sensor station.</desc>
+<defs>
+<linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1A2A"/><stop offset="1" stop-color="#080E19"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#32677B" stop-opacity=".26"/><stop offset="1" stop-color="#32677B" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx=".3" cy=".25" r=".8"><stop stop-color="#203C50"/><stop offset=".7" stop-color="#0D1A2A"/><stop offset="1" stop-color="#080E19"/></radialGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8CC8D8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="419" height="1085" rx="16" fill="url(#surface)" stroke="#263E50" />
+<rect x="1" y="1" width="418" height="1084" rx="16" fill="url(#grid)" stroke="none" />
+<text x="26" y="39" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="1.6" text-anchor="start" >03 / FLIGHT PLAN</text>
+<path d="M26 58H394" fill="none" stroke="#263E50" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="26" y="108" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="26" font-weight="600" letter-spacing="-0.6" text-anchor="start" >From code to systems.</text>
+<text x="26" y="139" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >A learning path. Every stage below is planned.</text>
+<path d="M43 195V902" fill="none" stroke="#365568" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="43" cy="191" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="195" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >01</text>
+<text x="74" y="196" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Sensors &amp; circuits</text>
+<text x="74" y="223" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >Arduino · electronics fundamentals</text>
+<circle cx="43" cy="291" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="295" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >02</text>
+<text x="74" y="296" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Telemetry &amp; logging</text>
+<text x="74" y="323" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >ESP32 · wireless data · SD logging</text>
+<circle cx="43" cy="391" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="395" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >03</text>
+<text x="74" y="396" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Embedded foundations</text>
+<text x="74" y="423" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >STM32 · IMUs · sensor fusion</text>
+<circle cx="43" cy="491" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="495" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >04</text>
+<text x="74" y="496" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Motion &amp; control</text>
+<text x="74" y="523" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >Motors · feedback loops · PID</text>
+<circle cx="43" cy="591" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="595" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >05</text>
+<text x="74" y="596" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Autonomous robotics</text>
+<text x="74" y="623" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >Rovers · robotic arms · integration</text>
+<circle cx="43" cy="691" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="695" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >06</text>
+<text x="74" y="696" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Custom hardware</text>
+<text x="74" y="723" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >PCB design · RTOS architecture</text>
+<circle cx="43" cy="791" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="795" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >07</text>
+<text x="74" y="796" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Modular avionics</text>
+<text x="74" y="823" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >Flight computers · CAN bus</text>
+<circle cx="43" cy="891" r="17" fill="#080E19" stroke="#537C8E" />
+<text x="43" y="895" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="500" letter-spacing="0" text-anchor="middle" >08</text>
+<text x="74" y="896" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="0" text-anchor="start" >Integrated testbeds</text>
+<text x="74" y="923" fill="#A4B7C7" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start" >Spacecraft simulators · robotics</text>
+<rect x="26" y="988" width="368" height="71" rx="9" fill="#102334" stroke="#345366" />
+<text x="44" y="1013" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" font-weight="500" letter-spacing="1.6" text-anchor="start" >FIRST PLANNED BUILD</text>
+<text x="44" y="1039" fill="#F2F6FA" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="20" font-weight="500" letter-spacing="0" text-anchor="start" >Arduino sensor station</text>
+</svg>

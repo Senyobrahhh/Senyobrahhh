@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="55" viewBox="0 0 420 55" role="img" aria-labelledby="title"><title id="title">SQL / C# / Python. Software + Robotics + Space. Fitness / Gaming / Travel. Building skills, one project at a time.</title>
+
+<defs><clipPath id="type1"><rect class="reveal" x="0" y="0" width="165.54999999999998" height="55" style="--line-width:165.54999999999998px;--chars:17"/></clipPath></defs>
+<g transform="translate(132.23 0)" class="phrase p1"><g clip-path="url(#type1)">
+<text x="0" y="34" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="400" letter-spacing="0" text-anchor="start" >SQL / C# / Python</text>
+</g></g>
+<defs><clipPath id="type2"><rect class="reveal" x="0" y="0" width="257.04999999999995" height="55" style="--line-width:257.04999999999995px;--chars:27"/></clipPath></defs>
+<g transform="translate(86.48 0)" class="phrase p2"><g clip-path="url(#type2)">
+<text x="0" y="34" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="400" letter-spacing="0" text-anchor="start" >Software + Robotics + Space</text>
+</g></g>
+<defs><clipPath id="type3"><rect class="reveal" x="0" y="0" width="238.75" height="55" style="--line-width:238.75px;--chars:25"/></clipPath></defs>
+<g transform="translate(95.62 0)" class="phrase p3"><g clip-path="url(#type3)">
+<text x="0" y="34" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="400" letter-spacing="0" text-anchor="start" >Fitness / Gaming / Travel</text>
+</g></g>
+<defs><clipPath id="type4"><rect class="reveal" x="0" y="0" width="202.15" height="55" style="--line-width:202.15px;--chars:21"/></clipPath></defs>
+<g transform="translate(113.92 0)" class="phrase p4"><g clip-path="url(#type4)">
+<text x="0" y="34" fill="#8CC8D8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="400" letter-spacing="0" text-anchor="start" >One project at a time</text>
+</g></g>
+<style>.phrase{display:none}.p1{display:inline}.reveal{width:var(--line-width)}</style></svg>

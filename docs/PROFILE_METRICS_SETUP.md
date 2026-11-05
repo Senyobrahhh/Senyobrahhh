@@ -1,30 +1,41 @@
-# GitHub profile dashboard — one-time live metrics setup
+# Profile analytics
 
-The profile README already contains three branded placeholders for Lowlighter Metrics:
+The README displays one coordinated telemetry panel in two sizes:
+- `assets/metrics/github.svg` — 960px desktop.
+- `assets/metrics/github-mobile.svg` — 480px phone fallback.
 
-- `assets/metrics/calendar.svg` — isometric contribution calendar.
-- `assets/metrics/languages.svg` — repository language breakdown.
-- `assets/metrics/activity.svg` — coding-activity charts.
+Each contains the same three Lowlighter Metrics modules: a full-year isometric contribution calendar, repository language usage, and recent coding patterns. These are activity measurements, not skill ratings. Until a successful refresh, a small, explicit “awaiting first sync” state is shown. No sample statistics are committed.
 
-The workflow is `.github/workflows/profile-metrics.yml`. The placeholders are deliberately not real statistics until the generator runs.
+## Enable the first refresh
 
-## Enable live cards
+1. Create a **classic personal access token with no scopes** and an expiration date. The selected public-data plugins support a scopeless token. Do not grant private repository access for this profile.
+2. In **Senyobrahhh/Senyobrahhh → Settings → Secrets and variables → Actions**, save it as **METRICS_TOKEN**. Keep the value out of commits, issues and chat.
+3. Open **Actions → Refresh profile dashboard metrics → Run workflow** and select the branch to update.
+4. Verify that both generation steps succeed. A green run with a “Metrics skipped” notice means the token is still missing; it is not evidence that data was generated.
 
-1. On GitHub, open **Settings → Developer settings → Personal access tokens** and create a token for Lowlighter Metrics. The project's documentation specifies a **personal access token**, because the built-in repository-scoped `GITHUB_TOKEN` cannot access all user-related metrics. Start with a classic token with **no scopes** for public metrics; only add permissions if a plugin explicitly requires them. Set an expiration date.
-2. Open your profile repository's **Settings → Secrets and variables → Actions → New repository secret**.
-3. Set **Name** to `METRICS_TOKEN` and paste the token as its **Value**. **Never add the value to README.md, a commit, an issue, or a chat message.**
-4. Open **Actions → Refresh profile dashboard metrics → Run workflow**. Alternatively, the workflow runs on its daily schedule.
-5. Open that workflow run and inspect the logs. On success, Lowlighter replaces the placeholder SVGs with real generated data. The README already references the correct file paths.
-6. If GitHub reports a write-permission error, check **Settings → Actions → General → Workflow permissions**. The workflow requests `contents: write`, but repository or organization settings may restrict the token.
+The workflow runs daily at 03:26 UTC once it is on the default branch, and on changes to its own workflow file on `main`. Each size writes to the branch that triggered the workflow. The separate built-in `GITHUB_TOKEN` publishes the images with repository `contents: write` permission; the Metrics token only reads public data. A plugin error fails the generation step rather than replacing a panel with an error chart. Missing credentials leave existing files untouched.
 
-## Notes
+The token may reveal aggregate private contribution counts already enabled on your public GitHub profile, but is not granted access to private source code. Repository language statistics may include languages other than SQL, C# and Python; they describe repository contents, not a claim of proficiency.
 
-- The metrics are a measure of **public GitHub activity**, not a comprehensive proof of skill or every hour of work.
-- Private repositories may require more permissions; do not give your token broad access merely to populate a public profile.
-- The language graph may contain languages outside your declared current SQL/C#/Python toolkit; GitHub code statistics and a self-described professional stack are different things.
-- The workflow uses `lowlighter/metrics@latest` and will use the current stable Metrics release. Review third-party action permissions periodically.
-- You can turn it off by removing the `METRICS_TOKEN` secret; the last committed images remain visible until you replace them.
+## Contribution animation
 
-Sources:
-- https://github.com/lowlighter/metrics
-- https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+The existing snake workflow and the original light/dark output files are retained. Two additional files, `github-snake-orbital.svg` and `github-snake-orbital-static.svg`, provide the dashboard palette and a static fallback. `scripts/prepare_snake.py` changes only colors and adds reduced-motion CSS (or disables animation in the static variant); it preserves every contribution cell and animation path. The README keeps the animation inside an expandable section so it remains available without competing with the portfolio.
+
+## Maintenance
+
+- `python3 scripts/build_assets.py` rebuilds the designed SVG panels using the Python standard library. It never overwrites generated metrics.
+- `python3 scripts/validate_profile.py` checks SVG XML, README image references and motion safeguards.
+- Update the pinned Metrics action deliberately and recheck the custom styles. Its action reference is pinned to the inspected stable v3.34 source; its default runtime uses the upstream v3.34 prebuilt container.
+- Revoke or rotate the Metrics token when it expires. Previously generated images remain visible if a later run fails.
+- The generated panel includes its update timestamp. Statistics are not promised to be live to the second.
+
+## References
+
+- [Lowlighter Metrics](https://github.com/lowlighter/metrics)
+- [GitHub Action setup and token requirements](https://github.com/lowlighter/metrics/blob/latest/.github/readme/partials/documentation/setup/action.md)
+- [Isometric calendar](https://github.com/lowlighter/metrics/blob/latest/source/plugins/isocalendar/README.md)
+- [Language statistics](https://github.com/lowlighter/metrics/blob/latest/source/plugins/languages/README.md)
+- [Coding habits](https://github.com/lowlighter/metrics/blob/latest/source/plugins/habits/README.md)
+- [Custom CSS and output options](https://github.com/lowlighter/metrics/blob/latest/source/plugins/core/README.md)
+- [Contribution snake](https://github.com/Platane/snk)
+
