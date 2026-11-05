@@ -53,7 +53,7 @@ My interests go beyond code: **space exploration, medical robotics, embedded sys
 
 <img width="49%" src="./assets/metrics/activity.svg" alt="Lowlighter Metrics coding activity charts — setup pending" />
 
-<sub>Powered by <a href="https://github.com/lowlighter/metrics">Lowlighter / Metrics</a>. These images automatically update after the one-time <code>METRICS_TOKEN</code> setup. Until then they deliberately show setup placeholders rather than invented statistics.</sub>
+
 
 </div>
 
