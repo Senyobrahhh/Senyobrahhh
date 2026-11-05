@@ -1,70 +1,72 @@
 
 <div align="center">
 
-<img width="100%" alt="Profile banner" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0B1220,100:0891B2&section=header&text=SENYOBRAHHH&fontColor=FFFFFF&fontSize=45&fontAlignY=38&desc=Software%20%7C%20Systems%20%7C%20Engineering&descAlignY=60&descSize=17"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0B1220,100:0891B2&section=header&text=ENYO&fontColor=FFFFFF&fontSize=55&fontAlignY=38&desc=SOFTWARE%20%7C%20ENGINEERING%20%7C%20EXPLORATION&descAlignY=60&descSize=17" />
 
-<img alt="Typing introduction" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=680&lines=Data+Engineer+%7C+C%23+%7C+SQL+Server;Building+backend+systems+and+APIs;Exploring+robotics+and+embedded+systems"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Data+Engineer+%7C+Developer;Passionate+about+Robotics+and+Space;Engineering+the+Future;Learning.+Building.+Improving.)](https://git.io/typing-svg)
 
 </div>
 
 ## 👨‍💻 About Me
 
-I'm Enyo, a developer based in Bulgaria, working with data systems, backend development, and database engineering.
+Hey! I'm **Enyo**, a developer with a passion for engineering, technology and understanding how things work.
 
-I enjoy understanding how systems work from the ground up — from software architecture and SQL databases to embedded electronics and robotics.
+My interests go far beyond writing code. I'm fascinated by the intersection of software, electronics, robotics and the physical world.
 
-- 💼 Working in Data Engineering
-- 🛠️ Developing projects with C# and ASP.NET Core
-- 🗄️ Working with SQL Server and T-SQL
-- 🤖 Interested in robotics, embedded systems and avionics
-- 🚀 Long-term goal: build intelligent hardware and space technology
+I enjoy building things, solving challenging problems and exploring ideas that push me outside my comfort zone.
 
-## ⚡ Technology Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,git,github&theme=dark" alt="C#, .NET, Git and GitHub"/>
-
-**SQL Server • T-SQL • ASP.NET Core • EF Core • xUnit**
+![SQL](https://img.shields.io/badge/SQL-0F172A?style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-0F172A?style=for-the-badge&logo=sharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
-## 🛰️ Featured Projects
+## 🚀 What Fascinates Me
 
-### 🏋️ FitnessApp
-An ASP.NET Core application exploring clean architecture, domain modeling, Entity Framework Core and backend API development.
+🛰️ **Space Engineering** — Spacecraft, avionics and exploration.
 
-[View repository](https://github.com/Senyobrahhh/FitnessApp)
+🤖 **Robotics** — Intelligent machines, automation and mechanical systems.
 
-### 🧩 Design Patterns & SOLID Principles
-My C# repository for exploring software design principles and reusable coding patterns.
+🦾 **Medical Technology** — Robotic systems that could transform healthcare.
 
-[View repository](https://github.com/Senyobrahhh/DesignPatterns-SolidPrinciples)
+⚡ **Electronics & Embedded Systems** — Connecting software with real hardware.
 
-### 🌐 DiaryWebApp
-An earlier web application project.
+## 🌍 Beyond Engineering
 
-[View repository](https://github.com/Senyobrahhh/DiaryWebApp)
+🏋️ Fitness & Training
 
-## 🔬 Engineering Roadmap
+🎮 Gaming & Technology
 
-| Area | Focus |
-|---|---|
-| Backend Engineering | ASP.NET Core, APIs, Architecture |
-| Database Engineering | SQL Server, T-SQL, Optimization |
-| Embedded Systems | Arduino, STM32, C |
-| Robotics | Sensors, Motors, Control Systems |
-| Space Technology | Flight Computers, Telemetry, Avionics |
+✈️ Traveling & Exploring
 
-## 🌍 Connect
+🔬 Experimenting with new ideas
 
-- 📍 Bulgaria
-- 💻 [GitHub](https://github.com/Senyobrahhh)
+## 📊 Live GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=Senyobrahhh&show_icons=true&theme=tokyonight&hide_border=true)
+
+</div>
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enyo-chorbadzhiyski-398522297/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/senyobrah/)
+
+</div>
 
 ---
 
 <div align="center">
 
-*"Build. Test. Learn. Repeat."*
+*Curiosity drives innovation. Engineering makes it real.*
 
 </div>
