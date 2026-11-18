@@ -56,7 +56,7 @@
 </picture>
 </p>
 
-<p align="center"><sub>Generated from GitHub activity with <a href="https://github.com/lowlighter/metrics">Lowlighter Metrics</a>. Repository language usage is separate from my current toolkit.</sub></p>
+
 
 <details>
   <summary>Contribution snake</summary>
