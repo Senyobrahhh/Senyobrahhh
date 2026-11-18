@@ -102,7 +102,6 @@ Engineering is a big part of my life, but definitely not the only one.
 - 🏋️ **Fitness & bodybuilding** — Discipline, consistency and pushing my limits.
 - 🎮 **Gaming & technology** — Video games, hardware and everything in between.
 - ✈️ **Travel & aviation** — New places, different cultures and exploring the world.
-- 🏎️ **Cars** — Automotive technology, performance and engineering.
 - 💡 **Entrepreneurship** — Creative ideas, building products and exploring opportunities.
 
 ### 🎯 My philosophy
