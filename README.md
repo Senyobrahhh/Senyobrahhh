@@ -56,16 +56,12 @@
 </picture>
 </p>
 
-
-
-<details>
-  <summary>Contribution snake</summary>
-  <br />
+<p>
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Senyobrahhh/Senyobrahhh/output/github-snake-orbital-static.svg" />
     <img width="100%" src="https://raw.githubusercontent.com/Senyobrahhh/Senyobrahhh/output/github-snake-orbital.svg" alt="Contribution snake, generated from my GitHub contribution calendar. Uses the same muted cyan palette and a static version for reduced-motion preferences." />
   </picture>
-</details>
+</p>
 
 <br />
 
@@ -76,8 +72,9 @@
 </picture>
 </p>
 
-<details>
-<summary>About Enyo · text version</summary>
+<p>
+  <picture>
+    <summary>About Enyo · text version</summary>
 
 I'm **Enyo (Senyobrahhh)**, a developer currently working in **data engineering**. My current programming toolkit is **SQL, C# and Python**. I'm strengthening my knowledge of relational data, SQL Server, T-SQL, backend applications, software architecture and testing.
 
@@ -85,18 +82,7 @@ I'm interested in how software interacts with physical systems: **spacecraft and
 
 Away from code, I enjoy **fitness and bodybuilding, gaming and hardware, travel and aviation, cars and automotive technology**, and exploring ideas for future businesses.
 
-**Planned learning progression**
+  </picture>
+</p>
 
-1. Arduino sensors and electronics fundamentals.
-2. ESP32 telemetry and data logging.
-3. STM32 microcontrollers, IMUs and sensor fusion.
-4. Motor control, feedback loops and PID.
-5. Autonomous robotics and robotic arms.
-6. Custom PCB design and RTOS architecture.
-7. Modular flight computers and CAN bus.
-8. Spacecraft simulators and integrated engineering testbeds.
-
-All stages above are **planned**. Completed projects will be featured when they are ready and documented.
-
-</details>
 
