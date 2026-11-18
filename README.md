@@ -1,60 +1,126 @@
+
+<!-- ==================== HEADER ==================== -->
+
 <p>
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/mobile/banner-static.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner-static.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/mobile/banner.svg" />
-  <img width="100%" src="./assets/banner.svg" alt="SENYOBRAHHH — Software • Robotics • Space. Enyo's engineering journal: developer, curious builder, learning in public." />
-</picture>
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/mobile/banner-static.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner-static.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/mobile/banner.svg" />
+    <img width="100%" src="./assets/banner.svg" alt="SENYOBRAHHH — Software • Robotics • Space. Enyo's engineering journal." />
+  </picture>
 </p>
+
+<!-- ==================== TYPING ANIMATION ==================== -->
 
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/mobile/typing-static.svg" />
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/typing-static.svg" />
     <source media="(max-width: 600px)" srcset="./assets/mobile/typing.svg" />
-    <img width="100%" src="./assets/typing.svg" alt="SQL / C# / Python. Software + Robotics + Space. Fitness / Gaming / Travel. Building skills, one project at a time." />
+    <img width="100%" src="./assets/typing.svg" alt="SQL, C#, Python. Software, Robotics, Space. Fitness, Gaming, Travel." />
   </picture>
-  <a href="https://www.linkedin.com/in/enyo-chorbadzhiyski-398522297/"><img width="142" height="40" src="./assets/social/linkedin.svg" alt="LinkedIn" /></a>
+
+  <a href="https://www.linkedin.com/in/enyo-chorbadzhiyski-398522297/">
+    <img width="142" height="40" src="./assets/social/linkedin.svg" alt="LinkedIn" />
+  </a>
   &nbsp;
-  <a href="https://www.instagram.com/senyobrah/"><img width="142" height="40" src="./assets/social/instagram.svg" alt="Instagram" /></a>
+  <a href="https://www.instagram.com/senyobrah/">
+    <img width="142" height="40" src="./assets/social/instagram.svg" alt="Instagram" />
+  </a>
 </p>
+
+<!-- ==================== PROFILE ==================== -->
+
+<h2 align="center">
+  Small steps.<br>
+  Extraordinary possibilities.
+</h2>
+
+<p align="center">
+  I'm <strong>Enyo</strong>, a developer working in
+  <strong>data engineering</strong>, passionate about
+  software, technology and building things.
+</p>
+
+<p align="center">
+  <strong>LANGUAGES & TECHNOLOGIES</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-0D1A2A?style=for-the-badge&logo=dotnet&logoColor=8CC8D8" alt="C#" />
+  <img src="https://img.shields.io/badge/SQL-0D1A2A?style=for-the-badge&logo=microsoftsqlserver&logoColor=8CC8D8" alt="SQL" />
+  <img src="https://img.shields.io/badge/Python-0D1A2A?style=for-the-badge&logo=python&logoColor=8CC8D8" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML-0D1A2A?style=for-the-badge&logo=html5&logoColor=8CC8D8" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-0D1A2A?style=for-the-badge&logo=css&logoColor=8CC8D8" alt="CSS" />
+</p>
+
+<p align="center">
+  <sub>Backend Development · Data Engineering · Web Development</sub>
+</p>
+
+<br>
+
+<!-- ==================== ENGINEERING INTERESTS ==================== -->
 
 <p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/mobile/dashboard-overview.svg" />
-  <img width="100%" src="./assets/dashboard-overview.svg" alt="01 / Profile. I'm Enyo, a developer working in data engineering. Current toolkit: SQL for relational data, C# for backend development, and Python for scripting and data. Current focus: data workflows and backend fundamentals. My next chapter is learning electronics and robotics." />
-</picture>
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/mobile/dashboard-interests.svg" />
+    <img width="100%" src="./assets/dashboard-interests.svg" alt="Engineering interests: spacecraft, satellites, avionics, microcontrollers, electronics, autonomous robotics, robotic arms, medical technology, CAD, CNC and 3D printing. Outside engineering: fitness, gaming, travel, cars and entrepreneurship." />
+  </picture>
 </p>
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/mobile/dashboard-interests.svg" />
-  <img width="100%" src="./assets/dashboard-interests.svg" alt="02 / Curiosity. Engineering interests: spacecraft, satellites, avionics, microcontrollers, electronics, autonomous systems, robotic arms, medical and surgical technology, CAD, CNC and 3D printing. Outside engineering: fitness, gaming, travel, cars and entrepreneurship." />
-</picture>
+<!-- ==================== ABOUT ENYO ==================== -->
+
+<h2 align="center">👨‍💻 About Enyo</h2>
+
+<p align="center">
+  <strong>Developer by profession. Explorer by curiosity.</strong>
 </p>
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/mobile/dashboard-roadmap.svg" />
-  <img width="100%" src="./assets/dashboard-roadmap.svg" alt="03 / Flight plan. All stages are planned: 1. Arduino sensors and circuits; 2. ESP32 telemetry and logging; 3. STM32 and sensor fusion; 4. Motors and PID control; 5. Autonomous robotics and robotic arms; 6. Custom PCBs and RTOS; 7. Flight computers and CAN bus; 8. Spacecraft simulators and integrated robotics testbeds. First planned build: an Arduino sensor station." />
-</picture>
+Hey! I'm **Enyo (Senyobrahhh)** 👋
+
+I'm a developer currently working in **data engineering**, where I spend my time learning, solving problems and improving my skills in databases, backend development and software architecture.
+
+My main programming languages are **C#, SQL and Python**, alongside **HTML and CSS** for web development.
+
+What makes engineering exciting to me is that there's always something new to discover. I enjoy understanding not just **how things work**, but **why they work** — and figuring out how to build them myself.
+
+### 🚀 What I'm passionate about
+
+My interests extend far beyond traditional software development.
+
+I'm fascinated by **space exploration, spacecraft, satellites, embedded electronics, robotics and autonomous systems**.
+
+I'm also interested in **medical and surgical technology, mechanical engineering, CAD, CNC machining and 3D printing**.
+
+These are fields I'm exploring and gradually learning more about, with the goal of turning curiosity into practical knowledge and real projects.
+
+### ⚡ Beyond the keyboard
+
+Engineering is a big part of my life, but definitely not the only one.
+
+- 🏋️ **Fitness & bodybuilding** — Discipline, consistency and pushing my limits.
+- 🎮 **Gaming & technology** — Video games, hardware and everything in between.
+- ✈️ **Travel & aviation** — New places, different cultures and exploring the world.
+- 🏎️ **Cars** — Automotive technology, performance and engineering.
+- 💡 **Entrepreneurship** — Creative ideas, building products and exploring opportunities.
+
+### 🎯 My philosophy
+
+I don't believe you need to know everything before you start building something.
+
+Learn the fundamentals. Experiment. Make mistakes. Figure out what went wrong. Improve.
+
+Every project teaches something new, and every small improvement moves you forward.
+
+<p align="center">
+  <strong>Stay curious. Keep building. Never stop learning.</strong>
 </p>
 
-<!-- Add a project showcase only when completed, documented builds are ready. -->
+<br>
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/mobile/telemetry-heading.svg" />
-  <img width="100%" src="./assets/telemetry-heading.svg" alt="04 / Activity. GitHub contributions, repository languages and recent coding patterns." />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/metrics/github-mobile.svg" />
-  <img width="100%" src="./assets/metrics/github.svg" alt="GitHub analytics generated by Lowlighter Metrics. The panel shows an explicit awaiting-first-sync message until real metrics have been generated." />
-</picture>
-</p>
+<!-- ==================== CONTRIBUTION SNAKE ==================== -->
+<!-- ORIGINAL SNAKE - UNCHANGED -->
 
 <p>
   <picture>
@@ -65,24 +131,11 @@
 
 <br />
 
-<p>
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/mobile/footer.svg" />
-  <img width="100%" src="./assets/footer.svg" alt="Stay curious. Keep building. Build. Test. Learn. Repeat." />
-</picture>
-</p>
+<!-- ==================== FOOTER ==================== -->
 
 <p>
   <picture>
-    <summary>About Enyo · text version</summary>
-
-I'm **Enyo (Senyobrahhh)**, a developer currently working in **data engineering**. My current programming toolkit is **SQL, C# and Python**. I'm strengthening my knowledge of relational data, SQL Server, T-SQL, backend applications, software architecture and testing.
-
-I'm interested in how software interacts with physical systems: **spacecraft and satellites, embedded electronics, autonomous robotics, robotic arms, medical and surgical technology, mechanical design and prototyping**. CAD, CNC and 3D printing are areas I want to explore as part of that path. I'm beginning the hardware side of this journey; these interests are not claims of professional experience.
-
-Away from code, I enjoy **fitness and bodybuilding, gaming and hardware, travel and aviation, cars and automotive technology**, and exploring ideas for future businesses.
-
+    <source media="(max-width: 600px)" srcset="./assets/mobile/footer.svg" />
+    <img width="100%" src="./assets/footer.svg" alt="Stay curious. Keep building. Build. Test. Learn. Repeat." />
   </picture>
 </p>
-
-
